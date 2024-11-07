@@ -7,6 +7,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    color: rgb(48, 48, 48);
 }
 
 header {
@@ -26,7 +27,7 @@ header span {
 .main-section {
     /* Стили для первой секции */
     background-color: #fafaff;
-    padding: 60px 60px;
+    padding: 60px 0px;
     min-height: 100vh;
     max-width: 715px;
 color: #303030;
@@ -41,7 +42,8 @@ margin-bottom: 356px;
 
 .main-title {
     /* Стили для заголовка в первой секции */
- 
+
+margin-bottom: 20px;
 color: #303030;
 
 
@@ -56,7 +58,7 @@ color: #303030;
 .main-image {
     /* Стили для изображения в первой секции */
    
-    width: 715px; 
+max-width: 715px; 
     height: 508vh;
     background-color: #fafaff;
     
@@ -74,12 +76,12 @@ select {
     /* Стили для выпадающего списка */
     width: 150px;
 height: 36px;
-font-family: "Inter", sans-serif;
 font-weight: 400;
 font-size: 16px;
 color: #303030;
 border: 1px solid rgba(48, 48, 48, 0.3);
 border-radius: 5px;
+
 }
 
 
@@ -87,7 +89,7 @@ border-radius: 5px;
 
 .section-title {
     /* Стили для заголовков во второй секции */
-    font-family: "Inter", sans-serif;
+
 font-weight: 700;
 font-size: 24px;
 color: #303030;
@@ -99,7 +101,7 @@ color: #303030;
     width: 80px;
 height: 57px;
 background: #fff;
-padding left: 20px;
+padding left: 0px 20px;
 
 }
 
@@ -111,7 +113,7 @@ height: 57px;
 font-weight: 400;
 font-size: 16px;
 color: #303030;
-padding left: 20px;
+padding left: 0px 20px;
 }
 
 .label {
@@ -152,7 +154,7 @@ border: 0;
     /* Стили для линии */
     border: 1px solid rgba(48, 48, 48, 0.3);
 width: 1440px;
-height: 0px;
+height: 60px 0px;
 
 }
 
@@ -171,12 +173,14 @@ color: #303030;
 font-weight: 400;
 font-size: 14px;
 color: #303030;
+padding: 12px 15px;
 }
 
 footer {
     /* Стили для футера */
     background: rgba(163, 167, 255, 0.3);
-    background-color: A3A7FF                                                 ;
+    background-color: A3A7FF ;
+     padding: 26px 0px;                                             
 }
 
 .footer-link {
@@ -184,4 +188,5 @@ footer {
 font-weight: 400;
 font-size: 14px;
 color: #2965f1;
+text-decoration: none;
 }
