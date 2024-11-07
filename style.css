@@ -52,6 +52,8 @@ color: #303030;
 .main-text {
     /* Стили для текста в первой секции */
 
+    font-size: 18px;
+    
   
 }
 
@@ -81,6 +83,7 @@ font-size: 16px;
 color: #303030;
 border: 1px solid rgba(48, 48, 48, 0.3);
 border-radius: 5px;
+background-repeat: no-repeat;
 
 }
 
@@ -93,6 +96,8 @@ border-radius: 5px;
 font-weight: 700;
 font-size: 24px;
 color: #303030;
+margin-bottom: 25px;
+
 
 }
 
@@ -101,7 +106,7 @@ color: #303030;
     width: 80px;
 height: 57px;
 background: #fff;
-padding left: 0px 20px;
+padding: 0px 20px;
 
 }
 
@@ -113,7 +118,8 @@ height: 57px;
 font-weight: 400;
 font-size: 16px;
 color: #303030;
-padding left: 0px 20px;
+padding: 0px 20px;
+
 }
 
 .label {
@@ -162,6 +168,9 @@ table {
     /* Стили для таблицы */
     width: 300px;
 height: 196px;
+font-size: 14px;
+
+
 }
 
 th, td {
